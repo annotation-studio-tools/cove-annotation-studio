@@ -6,7 +6,7 @@ A focused timeline editor for [COVE](https://github.com/yourcove/cove). Annotate
 
 Requires **COVE 1.7.0 or later**. Tested with COVE 1.7.0 on Windows; later versions and other platforms have not been verified.
 
-1. Download the extension ZIP from [Releases](https://github.com/jwach26/cove-annotation-studio/releases).
+1. Download the extension ZIP from [Releases](https://github.com/annotation-studio-tools/cove-annotation-studio/releases).
 2. In COVE, open **Settings → Extensions → Discover → More extension actions → Install from ZIP**.
 3. Choose the ZIP and review COVE's unverified-extension notice. This is a third-party extension.
 4. Reload COVE, open a video, and choose **Annotate**.
@@ -71,7 +71,7 @@ node --check artifacts/studio.mjs
 
 If dotnet is not on PATH, pass --dotnet /path/to/dotnet. Use --output /path/to/output to change the artifact directory. Windows subprocesses are launched without console windows by the build script.
 
-Output: artifacts/annotation-studio-0.2.0.zip and its SHA-256 checksum. The ZIP contains only the extension assembly, manifest, frontend bundle, stylesheet and license.
+Output: a versioned extension ZIP and its SHA-256 checksum in artifacts/. The ZIP contains only the extension assembly, manifest, frontend bundle, stylesheet and license.
 
 ## Development
 
