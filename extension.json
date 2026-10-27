@@ -1,0 +1,22 @@
+{
+  "id": "local.annotation-studio",
+  "name": "Annotation Studio",
+  "version": "0.2.0",
+  "description": "A focused tag timeline editor with fast playback and precise timing controls.",
+  "author": "jwach26",
+  "kind": "extension",
+  "categories": [
+    "tools"
+  ],
+  "minCoveVersion": "1.7.0",
+  "entryDll": "AnnotationStudio.dll",
+  "jsBundle": "studio.mjs",
+  "cssBundle": "studio.css",
+  "dependencies": {},
+  "permissions": {
+    "network": [],
+    "scraperRuntime": [],
+    "downloaderRuntime": []
+  },
+  "url": "https://github.com/jwach26/cove-annotation-studio"
+}
